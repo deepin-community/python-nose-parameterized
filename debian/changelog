@@ -1,0 +1,56 @@
+python-nose-parameterized (0.3.4-5) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Use team+openstack@tracker.debian.org as maintainer
+  * Use debhelper-compat instead of debian/compat.
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/watch: Use https protocol
+
+  [ Daniel Baumann ]
+  * Updating copyright format url.
+  * Updating maintainer field.
+  * Running wrap-and-sort -bast.
+  * Removing gbp.conf, not used anymore or should be specified in the
+    developers dotfiles.
+  * Updating standards version to 4.1.0.
+
+  [ Thomas Goirand ]
+  * Removed Python 2 support (Closes: #937952).
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 13 Sep 2019 13:22:15 +0200
+
+python-nose-parameterized (0.3.4-4) unstable; urgency=medium
+
+  * Fixed VCS URLs (https).
+  * d/rules: Changed UPSTREAM_GIT protocol to https
+  * d/s/options: extend-diff-ignore of .gitreview
+  * d/control: Using OpenStack's Gerrit as VCS URLs.
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:42:21 +0100
+
+python-nose-parameterized (0.3.4-3) unstable; urgency=medium
+
+  [ Ivan Udovichenko ]
+  * Remove Pre-Depends field from debian/control .
+  * Add python-nose and python3-nose as a dependency.
+
+  [ Thomas Goirand ]
+  * Added missing dh-python.
+  * Removed version in python-all build-depends.
+  * Watch file now using the PyPi redirector.
+  * Fixed gbp.conf.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 22 Sep 2015 08:07:35 +0000
+
+python-nose-parameterized (0.3.4-2) unstable; urgency=medium
+
+  * Using the new package long description from Guido Günther <agx@sigxcpu.org>,
+    big thanks a lot to him!
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 03 Nov 2014 17:42:55 +0800
+
+python-nose-parameterized (0.3.4-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #767515)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 31 Oct 2014 23:56:25 +0800
